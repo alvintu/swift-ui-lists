@@ -7,10 +7,6 @@
 
 import SwiftUI
 
-struct Item: Identifiable {
-    var id: UUID
-    var name: String
-}
 struct TodoListView: View {
     
     @ObservedObject var todoManager: TodoListManager
